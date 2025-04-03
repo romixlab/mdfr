@@ -43,7 +43,7 @@ itertools = "0.12"
 serde = { version = "1.0", features = ["derive"] } # for serialization
 whoami = "1.2" # to get user nam for writing file
 rand = "0.8" # for random numbers
-arrow = { version = "51.0.0", features = [
+arrow = { version = "54", features = [
     "pyarrow",
     "prettyprint",
     "ffi",
